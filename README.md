@@ -10,6 +10,10 @@ This project is a console-based bank application built in C# using .NET 8 and Mo
 - **Total Balance**: Displays the sum of all bank accounts before exiting.
 - **MongoDB**: Stores account details and transaction history.
 
+### Extra Features Completed
+- **MongoDB Aggregation Framework**: Implemented advanced queries using MongoDB's aggregation framework to retrieve complex data.
+- **Unit Testing**: Developed comprehensive unit tests for the application to verify database interactions and functionality, which can be run in a CI pipeline.
+
 ## How It Works
 1. Start the application and input a bank account name.
 2. If the account exists, users can deposit or withdraw funds. If it doesn't exist, a new account is created.
